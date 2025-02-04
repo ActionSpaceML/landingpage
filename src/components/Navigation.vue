@@ -58,10 +58,6 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 import 'animate.css'
 
 const navigation = [
-  { name: 'Robots', to: '/robots' },
-  { name: 'AI Systems', to: '/ai-systems' },
-  { name: 'Research', to: '/research' },
-  { name: 'About', to: '/about' },
   { name: 'Contact', to: '/contact' },
 ]
 
