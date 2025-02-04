@@ -11,29 +11,9 @@ const router = createRouter({
       component: Home
     },
     {
-      path: '/ai-systems',
-      name: 'ai-systems',
-      component: () => import('../components/AISystems.vue')
-    },
-    {
-      path: '/robots',
-      name: 'robots',
-      component: () => import('../components/Robots.vue')
-    },
-    {
-      path: '/research',
-      name: 'research',
-      component: () => import('../components/Research.vue')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../components/About.vue')
-    },
-    {
       path: '/contact',
       name: 'contact',
-      component: Contact
+      component: () => import(Contact)
     }
   ]
 })
